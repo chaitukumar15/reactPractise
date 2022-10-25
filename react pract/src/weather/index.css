@@ -1,0 +1,44 @@
+*{
+background-image: url(./media/backgroung.jfif);
+background-color: black;
+color: rgb(15, 7, 7);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+.inputBtn{
+
+    display: flex;
+    margin-top: 200px;
+     justify-content: center; 
+}
+input{
+    width: 500px;
+    height: 40px;
+    color: whitesmoke;
+    background-color: rgba(77, 33, 33, 0.74);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px beige !important;
+    border: 2px solid whitesmoke;
+}
+input:active{
+    box-shadow: 2px 2px 5px black;
+}
+.table{
+    width: 40% !important;
+}
+.tableData{
+display: flex;
+justify-content: center;
+margin-top: 30px;
+
+}
+.items{
+    width: 230px;
+    height: 160px;
+    background-color: aliceblue;
+}
+td,th{
+    font-size: larger;
+    font-weight: bold;
+}
